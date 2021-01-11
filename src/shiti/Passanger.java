@@ -1,11 +1,32 @@
 package shiti;
 
+import java.util.Date;
+
 public class Passanger
 {
     String Id;
     String name;
     String phone;
     String CardId;
+    private String customerType;
+    private Date birthDate;
+
+    public String getCustomerType() {
+        return customerType;
+    }
+
+    public void setCustomerType(String customerType) {
+        this.customerType = customerType;
+    }
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(Date birthDate) {
+        this.birthDate = birthDate;
+    }
+
     public String getId() {
         return Id;
     }
