@@ -1,14 +1,18 @@
-package shiti;
+package Plane.Shiti;
 
 import java.util.Date;
+import java.util.Set;
 
 public class Flight
 {
     private String id;
+    private String seatNo;
+    private String totalSeatNum;
     private String planeType;
     private String departureAirport;
     private String destinationAirport;
     private Date departureTime;
+
     public String getId() {
         return id;
     }
